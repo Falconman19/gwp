@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Golden Wolf Programming</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+
+
+        body{
+            background-color:rgb(245,245,245) ;
+        }
+
+        #age{
+          font-family: 'Nunito', sans-serif;
+          font-size: 40px
+        }
+
+        #Where{
+          font-family: 'Nunito', sans-serif;
+          font-size: 40px
+        }
+
+        #Wolf{
+          color: rgb(56, 94, 196);
+        }
+
+        #Real-name{
+          font-family: 'Nunito', sans-serif;
+          font-size: 40px
+        }
+        .button1 {
+          background-color: green; /* Green */
+          border: none;
+          color: green;
+          padding: 16px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          transition-duration: 1.5s;
+          cursor: pointer;
+        }
+
+        .button1 {
+          background-color: green;
+          color: black;
+          border: 2px solid green ;
+          font-size: 24px;
+          padding: 14px;
+          border-radius: 4px;
+          width: 24%;
+        }
+
+        .button1:hover {
+          background-color: rgb(100);
+          color: white;
+          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+
+        .button span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+
+        .button span:after {
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+
+        .button:hover span {
+          padding-right: 25px;
+        }
+
+        .button:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
+        }
+        </style>
+    </head>
+    <body>
+
+
+
+
+
+        <br>
+        <div class="w3-bar w3-green">
+        <button class="button1" onclick=document.location='file:///Users/Aiden/Documents/1rst%20Website/index.html'>Home</button>
+        <button class="button1" onclick=document.location='file:///Users/Aiden/Documents/1rst%20Website/About.html'>About</button>
+        <button class="button1" onclick=document.location='file:///Users/Aiden/Documents/1rst%20Website/Profile.html'>Profile</button>
+        <button class="button1" onclick=document.location='file:///Users/Aiden/Documents/1rst%20Website/Projects.html'>Projects</button>
+
+        </div>
+         <div class="w3-container">
+
+           <br><img src="images/Wolf.jpeg" alt="Wolf"width="100"id =Wolf>
+           <h2 id=Real-name >Real name: Aiden Wainberg</h2>
+           <h2 id=Where>Where: Guelph</h2>
+           <h2 id=age>Age: 9</h2>
+    </body>
+</html>
